@@ -32,7 +32,7 @@ func main() {
 	runtime.GC()
 	time.Sleep(1)
 
-	printMemStats("After New Map")
+	printMemStats("After Nil Map")
 }
 
 func printMemStats(mag string) {
